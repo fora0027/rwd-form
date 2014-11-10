@@ -130,7 +130,7 @@ input[type=text], input[type=date], input[type=number]{
       inset 0 0 8px  rgba(0,0,0,0.1),
             0 0 16px rgba(0,0,0,0.1); 
     padding: 4px;
-    background: rgba(255,255,255,0.5);
+    background: rgba(255,50,182,0.5);
     margin: 0 0 10px 0;
 }    
 .buttons{
@@ -161,7 +161,7 @@ input[type=reset]{
 	
 }
 .ui-slider .ui-slider-handle{
-    background: white url("../img/Cost.svg") no-repeat scroll 50% 50% !important;
+    background: #FFE132 url("../img/Cost.svg") no-repeat scroll 50% 50% !important;
     background-size: contain !important;
     width: 2em !important;
     height: 2em !important;
@@ -181,6 +181,8 @@ input[type=reset]{
     .sliderUI{
     width: 75%;
     margin: 1% auto;
+    
+    
 }
     .house{
         position: absolute;
